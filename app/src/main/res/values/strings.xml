@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">smart</string>
+    <string name="title_activity_location_map">Map</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

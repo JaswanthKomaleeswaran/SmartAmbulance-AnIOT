@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "6824744933",
+    "firebase_url": "https://smart-fa6d3.firebaseio.com",
+    "project_id": "smart-fa6d3",
+    "storage_bucket": "smart-fa6d3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:6824744933:android:0d711846f1f30343",
+        "android_client_info": {
+          "package_name": "com.jaswanthk.smart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "6824744933-g9c74vpka2t401kod1f6hhnrcc5o1vmj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jaswanthk.smart",
+            "certificate_hash": "1137b2cf971adb69258f94caab03ba85545d54c2"
+          }
+        },
+        {
+          "client_id": "6824744933-cdrgi2n8fto21k7a99f4pt9d6tfr0nre.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuP802i54fbVkNc0qY2Dwy9Gl05MOJR1g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "6824744933-cdrgi2n8fto21k7a99f4pt9d6tfr0nre.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

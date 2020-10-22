@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jaswanthk.smart.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#c2ced7">
+        <GridLayout
+            android:id="@+id/main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="ScrollViewSize,UselessLeaf">
+
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_column="0"
+                android:layout_gravity="center"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginTop="20dp"
+                android:layout_row="1"
+                android:layout_rowSpan="2"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/username"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="30dp"
+                android:layout_row="3"
+                android:text="Username"
+                android:textSize="24sp"
+                tools:ignore="HardcodedText,RtlHardcoded" />
+
+            <LinearLayout
+                android:id="@+id/llay1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_column="0"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_row="4"
+                android:background="@android:color/background_light"
+                android:orientation="horizontal"
+                android:padding="5dp">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/username" />
+
+                <EditText
+                    android:id="@+id/user"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="0dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="0dp"
+                    android:layout_weight="1"
+                    android:background="#fbf8f8"
+                    android:ems="10"
+                    android:maxLength="10"
+                    android:inputType="textPersonName"
+                    android:textSize="24sp"
+                    tools:ignore="HardcodedText,LabelFor" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/passtext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="15dp"
+                android:layout_row="5"
+                android:text="Password"
+                android:textSize="24sp"
+                tools:ignore="HardcodedText" />
+
+            <LinearLayout
+                android:id="@+id/llay2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_column="0"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_row="6"
+                android:background="@android:color/background_light"
+                android:orientation="horizontal"
+                android:padding="5dp">
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/password" />
+
+                <EditText
+                    android:id="@+id/pass"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="0dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="0dp"
+                    android:layout_weight="1"
+                    android:background="#fbf8f8"
+                    android:ems="10"
+                    android:maxLength="10"
+                    android:inputType="textPassword"
+                    android:textSize="24sp"
+                    tools:ignore="HardcodedText,LabelFor" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/userpwd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_row="7"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:visibility="invisible"
+                tools:ignore="HardcodedText" />
+
+
+            <Button
+                android:id="@+id/logbtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_marginBottom="70dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_row="8"
+                android:background="@drawable/loginbackground"
+                android:text="SIGN IN"
+                tools:ignore="HardcodedText" />
+
+        </GridLayout>
+    </ScrollView>
+
+
+
+</android.support.design.widget.CoordinatorLayout>
